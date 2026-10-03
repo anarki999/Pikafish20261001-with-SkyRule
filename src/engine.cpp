@@ -173,7 +173,7 @@ Engine::Engine(std::optional<std::filesystem::path> path) :
           return std::nullopt;
       }));
 
-    options.add("UCI_ShowWDL", Option(true);
+    options.add("UCI_ShowWDL", Option(true));
 
     options.add(  //
       "EvalFile", Option(EvalFileDefaultName, [this](const Option& o) {
